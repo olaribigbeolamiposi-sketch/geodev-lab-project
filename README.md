@@ -145,9 +145,6 @@ The 1 km distance is an exploratory threshold, not an official access standard. 
 
 Facilities outside Lagos Mainland were not included, even though they could serve people inside it. No percentage of land or population covered has been calculated.
 
-Next steps are to:
-- Review school classifications and possible duplicate institutions.
-- Verify missing names, locations and entrances against reliable sources.
-- Include nearby facilities outside the boundary.
-- Obtain walking routes, population and facility-capacity data.
-- Develop the interactive school map proposed in Week 1.
+## Month 2: development environment and early Python
+
+Week 5: set up Python, VS Code and the terminal. hello.py runs.
