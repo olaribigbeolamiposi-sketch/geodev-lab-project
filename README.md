@@ -154,3 +154,9 @@ Week 6: set up the project with uv and added pandas. check.py prints the pandas 
 Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
 
 Week 8: inspect_data.py summarises X and Y coordinates in my Lagos Mainland education points data.
+
+Week 9: refactored my Month 1 education data inspection into small reusable functions and summarised the X and Y coordinates with count, smallest, largest and average.
+
+### Month 2 reflection
+
+This month, functions finally started to make sense to me because I can now see how one function can do one clear job and then be reused. I am still getting used to deciding when a value should be printed and when a function should return it. My capstone shows that all 31 education points in my Month 1 dataset were successfully processed, and it summarises the range and average of their X and Y coordinates. Refactoring also helped me see how the same analysis can be made easier to read without changing the results.
