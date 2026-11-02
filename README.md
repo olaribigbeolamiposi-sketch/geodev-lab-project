@@ -147,15 +147,25 @@ Facilities outside Lagos Mainland were not included, even though they could serv
 
 ## Month 2: development environment and early Python
 
-Week 5: set up Python, VS Code and the terminal. hello.py runs.
+### Week 5
+Set up Python, VS Code and the terminal. `hello.py` runs.  
+[View Week 5 — hello.py](hello.py) | [Screenshot](screenshots/week5.png)
 
-Week 6: set up the project with uv and added pandas. check.py prints the pandas version.
+### Week 6
+Set up the project with uv and added pandas. `check.py` prints the pandas version.  
+[View check.py](check.py) | [pyproject.toml](pyproject.toml) | [uv.lock](uv.lock) | [Screenshot](screenshots/week6.png)
 
-Week 7: analyse.py reads wards.csv, converts each area and classifies each ward.
+### Week 7
+`analyse.py` reads `wards.csv`, converts each area and classifies each ward.  
+[View analyse.py](analyse.py) | [wards.csv](wards.csv) | [Screenshot](screenshots/week7.png)
 
-Week 8: inspect_data.py summarises X and Y coordinates in my Lagos Mainland education points data.
+### Week 8
+`inspect_data.py` summarises X and Y coordinates in my Lagos Mainland education-points data.  
+[View inspect_data.py](inspect_data.py) | [education_points.csv](education_points.csv) | [Screenshot](screenshots/week8.png)
 
-Week 9: refactored my Month 1 education data inspection into small reusable functions and summarised the X and Y coordinates with count, smallest, largest and average.
+### Week 9
+Refactored my Month 1 education-data inspection into reusable functions and summarised the X and Y coordinates.  
+[View summary.py](summary.py) | [Month 1 dataset](education_points.csv) | [Screenshot](screenshots/week9.png)
 
 ### Month 2 reflection
 
