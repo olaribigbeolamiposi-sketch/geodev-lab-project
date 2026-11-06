@@ -170,3 +170,8 @@ Refactored my Month 1 education-data inspection into reusable functions and summ
 ### Month 2 reflection
 
 This month, functions finally started to make sense to me because I can now see how one function can do one clear job and then be reused. I am still getting used to deciding when a value should be printed and when a function should return it. My capstone shows that all 31 education points in my Month 1 dataset were successfully processed, and it summarises the range and average of their X and Y coordinates. Refactoring also helped me see how the same analysis can be made easier to read without changing the results.
+
+
+## Month 3: geospatial Python and automation
+
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my Lagos Mainland education points layer in code.
