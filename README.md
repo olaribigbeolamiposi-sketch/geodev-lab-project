@@ -175,3 +175,5 @@ This month, functions finally started to make sense to me because I can now see 
 ## Month 3: geospatial Python and automation
 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Lagos Mainland education points layer in code.
+
+- Week 11: CRS and spatial operations. Reprojected to EPSG:32631 and measured Lagos Mainland area, education-point counts and 1 km straight-line education coverage.
