@@ -177,3 +177,5 @@ This month, functions finally started to make sense to me because I can now see 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Lagos Mainland education points layer in code.
 
 - Week 11: CRS and spatial operations. Reprojected to EPSG:32631 and measured Lagos Mainland area, education-point counts and 1 km straight-line education coverage.
+
+- Week 12: Rasters. Computed NDVI for Lagos Mainland and summarised it per study-area polygon. [View Week 12 work](month-03/week-12/README.md).

@@ -86,3 +86,106 @@ All three local outputs use EPSG:4326 (WGS 84).
 The data has been downloaded, opened in QGIS, inspected, and extracted for the study area. The QGIS project has been saved as lagos-mainland-schools.qgz.
 
 School classification, duplicate checks, and coverage verification remain future work.
+
+
+
+## Week 12: Raster data sources
+
+### Guided practical: Ibadan North
+
+The guided exercises used teaching raster datasets.
+
+Files:
+- data/raw/dem.tif
+- data/raw/landsat/*_SR_B4.TIF
+- data/raw/landsat/*_SR_B5.TIF
+
+The DEM was used for elevation inspection, sampling,
+clipping, zonal statistics and reprojection.
+
+The Landsat bands were used to calculate NDVI.
+
+The teaching DEM has a resolution of 30 metres and
+uses EPSG:32631.
+
+### Independent challenge: Lagos Mainland
+
+Study area: Lagos Mainland, Lagos State, Nigeria.
+
+Source: USGS EarthExplorer
+https://earthexplorer.usgs.gov/
+
+Satellite: Landsat 8
+Dataset: Collection 2 Level-2
+
+Scene:
+LC08_L2SP_191055_20250117_20250128_02_T1
+
+Acquisition date: 17 January 2025
+Scene cloud cover: 6.21%
+Land cloud cover: 6.09%
+
+Local folder:
+data/raw/landsat/lagos_mainland/
+
+Downloaded files:
+- LC08_L2SP_191055_20250117_20250128_02_T1_SR_B4.TIF
+- LC08_L2SP_191055_20250117_20250128_02_T1_SR_B5.TIF
+- LC08_L2SP_191055_20250117_20250128_02_T1_QA_PIXEL.TIF
+
+Band 4 contains red reflectance.
+Band 5 contains near-infrared reflectance.
+QA_PIXEL identifies pixel quality conditions.
+
+All three rasters use EPSG:32631 and have
+30-metre pixel resolution.
+
+### Locally generated raster outputs
+
+- data/processed/ndvi.tif
+  Teaching NDVI raster.
+
+- data/processed/dem_ibadan_north.tif
+  DEM clipped to the teaching study area.
+
+- data/processed/dem_wgs84.tif
+  Teaching DEM reprojected to EPSG:4326.
+
+- data/processed/lagos_mainland_ndvi.tif
+  Lagos Mainland NDVI raster.
+
+### Lagos Mainland NDVI results
+
+Valid pixels: 7,890
+Minimum NDVI: -0.102
+Maximum NDVI: 0.971
+Mean NDVI: 0.149
+
+NDVI was calculated using scaled surface reflectance,
+with unsuitable pixels excluded using quality flags
+and validity checks.
+
+The zonal statistics were calculated for the
+Lagos Mainland study-area polygon.
+
+### Limitations
+
+Only valid pixels contributed to the NDVI statistics.
+Areas without valid NDVI measurements were excluded.
+
+The scene cloud-cover percentage describes the overall
+scene, not necessarily the exact Lagos Mainland area.
+
+NDVI measures vegetation-related reflectance. It is
+not a direct percentage of vegetation coverage.
+
+The analysis uses one satellite acquisition date.
+
+### Repository storage
+
+Raster GeoTIFF files remain on my laptop and are
+excluded from GitHub.
+
+The repository contains Python scripts, PNG maps,
+CSV results, README files and this data documentation.
+
