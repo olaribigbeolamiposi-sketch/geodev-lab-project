@@ -16,3 +16,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Week 13 generated GeoPackages
+data/processed/lga_points/
+data/processed/my_lagos_points/

@@ -1,0 +1,12 @@
+2026-11-27 23:31:42,933 INFO Input files prepared
+2026-11-27 23:31:42,978 ERROR Failed broken_coordinates.csv: missing coordinate columns: ['X', 'Y']
+2026-11-27 23:31:43,268 INFO Created 15 records
+2026-11-27 23:31:43,308 INFO Converted lagos_schools_part1.csv: 15 points
+2026-11-27 23:31:43,396 INFO Created 16 records
+2026-11-27 23:31:43,448 INFO Converted lagos_schools_part2.csv: 16 points
+2026-11-27 23:31:43,456 INFO Finished 3 files in 0.6 seconds
+2026-11-27 23:43:01,473 INFO Input files prepared
+2026-11-27 23:43:01,476 ERROR Failed broken_coordinates.csv: missing coordinate columns: ['X', 'Y']
+2026-11-27 23:43:01,477 INFO Skipped lagos_schools_part1.csv: output already exists
+2026-11-27 23:43:01,477 INFO Skipped lagos_schools_part2.csv: output already exists
+2026-11-27 23:43:01,485 INFO Finished 3 files in 0.0 seconds
